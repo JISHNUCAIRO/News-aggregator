@@ -1,0 +1,278 @@
+.navbar {
+    background-color: rgba(62, 14, 14, 0.247);
+    padding: 10px;
+    padding-left: 100px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    height: 27px;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 10px;
+    float: right;
+    padding-left: 10px;
+    font-weight:bold;
+    padding-right: 100px;
+  }
+  
+  .navbar li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .navbar li a:hover {
+    /* background-color:white; */
+  }
+  .nav:hover
+  {
+    background-color: white;
+    /* padding: 6px; */
+    border-radius: 7px;
+    transition: 0.7s;
+  }
+  .sidebar {
+    width: 190px;
+    /* display:none; */
+    background-color: #f0f0f0;
+    border: #333;
+    margin-left:1px;
+    padding-left: 10px;
+}
+
+.sidebar h2 {
+    color:grey;
+    font-size: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .sidebar li {
+    margin-bottom: 30px;
+  }
+  
+  .sidebar li a {
+      color:gray;
+      text-decoration: none;
+  }
+  
+  .sidebar li a:hover {
+    color: black;
+    font-weight: bold;
+}
+#save
+  {
+    padding-right: 10px;
+    padding-left: 9px;
+}
+#trend
+{
+    font-size: larger;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.side
+  {
+      margin-top: 10px;
+    }
+    .side:hover
+    {
+        align-content: center;
+        background-color:white;
+        transition: 0.9s;
+        cursor: pointer;
+    }
+    .hov:hover
+    {
+        font-size: large;
+    }
+    .flo
+    {
+        float: left;
+    }
+    .fle
+    {
+        /* margin-top: 10%;
+    margin-bottom: 10%; */
+    cursor: pointer;
+    display: flex;
+    padding-left: 3px;
+    
+}
+/* .fle:hover
+{        
+    background-color: white;
+} */
+#sub
+{
+    padding-left: 10px;
+    margin-top:5px;
+}
+/* .sideho
+{
+    cursor: pointer;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.sideho:hover
+{
+    background-color: white;
+    /* font-size: large; */
+    /* transition: 0.9s; */
+/* } */
+#line
+{
+    cursor: pointer;
+}
+h2
+{
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.foot
+{
+  background-color: black;
+  padding-left: 10%;
+  padding-bottom:12%;
+}
+img
+{
+  padding-left: 10px;
+  padding-bottom: 40px;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.tot
+{
+  display: flex;
+}
+.image
+{
+  display: table-column;
+}
+.tot ::after {
+  content: "";
+  clear : both;
+  display:table;
+}
+.head
+{
+  padding-left: 5%;
+  margin-top: 1px;
+  margin-left: 20px;
+  padding-top: 40px;
+  color: aqua;
+  text-align: center;
+}
+.linking
+{
+  color: white;
+}
+#ju
+{
+  list-style-type: none;
+}
+.footot
+{
+  display: flex;
+}
+.media
+{
+  margin-left: 40px;
+  /* margin-top: 10px; */
+}
+.some
+{
+  display: flex;
+  padding-left:20px ;
+}
+.i
+{
+  margin-right:10px;
+}
+.i:hover
+{
+   transition: 0.4s;
+  background-color: #f0f0f0;
+  padding: 1px;
+  border-radius: 6px;
+}
+.i:hover{
+ background:#fff;
+ box-shadow:0px 2px 10px 5px #97B1BF;
+ color:#000;
+}
+
+.i:after {
+  content: "";
+  background: #f1c40f;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px ;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.i:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.sideho {
+  border-color: #f1c40f;
+  color: black;
+  background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+}
+.sideho:hover {
+  background-position: 0;cursor: pointer;
+}
+.fle {
+  border-color: #f1c40f;
+  color: black;
+  background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+}
+.fle:hover {
+  background-position: 0;
+  cursor: pointer;
+}
+
+.nav {
+  /* background: rgb(69, 69, 81); */
+  color: lightgray;
+  padding: 1px;
+  border-radius: 5px;
+  transition: transform 200ms;
+}
+
+.nav:hover {
+  transform: rotate(5deg);
+}
+#last
+{
+  text-align: center;
+  padding-top: 1px;
+  color: #fff;
+}
+
