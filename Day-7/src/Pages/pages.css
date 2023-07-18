@@ -1,0 +1,227 @@
+.pow
+{
+  background-image: linear-gradient(to right,rgb(115, 20, 93),rgb(119, 137, 22));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.login
+{
+  position:absolute;
+  margin-top: 100px;
+  margin-left: 400px;
+  width: 50%;
+  font-size: x-large;
+  height: 50%;
+  color: black;
+  font-weight: bolder;
+  background-color: rgb(210, 186, 175);
+  padding-top:30px;
+  padding-bottom:80px;
+  background-position: center;
+  /* margin-top:260px; */
+  border: black solid 2px;
+  border-radius: 35px;
+  text-shadow: 3px; 
+  opacity:0.9;
+  box-shadow: 5px 9px;
+}
+.er
+{
+  color:red
+}
+.social
+{
+  padding-right: 1px;
+  margin-right:10px;
+}
+.soc
+{
+  background-color: white;
+  width:fit-content;
+  padding-left: 0px;
+  border: white solid 2px;
+  border-radius: 1px;
+  width: 300px;
+  color: white;
+  padding: 3px;
+  
+}
+#sign:hover
+{
+  transition: 0.6s;
+  font-size: larger;
+  color:firebrick;
+}
+input[type = "password"]:hover
+{
+  font-size:medium;
+  transition: 0.9s;
+  width: 180px;
+}
+input[type = "name"]:hover
+{
+  font-size:medium;
+  transition: 0.9s;
+  width: 180px;
+}
+input[type = "age"]:hover
+{
+  font-size:medium;
+  transition: 0.9s;
+  width: 180px;
+}
+input[type = "gender"]:hover
+{
+  font-size:medium;
+  transition: 0.9s;
+  width: 180px;
+}
+input[type = "email"]:hover
+{
+  font-size:medium;
+  transition: 0.9s;
+  width: 180px;
+}
+input[type = "password"]
+{
+  border: black solid 2px;
+  width: 160px;
+  border-radius: 5px;
+  margin-left: 6px;
+  padding-top: 16px;
+}
+input[type = "name"]
+{
+  border: black solid 2px;
+  width: 160px;
+  border-radius: 5px;
+  margin-left: 6px;
+  padding-top: 16px;
+}
+input[type = "age"]
+{
+  border: black solid 2px;
+  width: 160px;
+  border-radius: 5px;
+  margin-left: 6px;
+  padding-top: 16px;
+}
+input[type = "gender"]
+{
+  border: black solid 2px;
+  width: 160px;
+  border-radius: 5px;
+  margin-left: 6px;
+  padding-top: 16px;
+}
+input[type = "email"]
+{
+  padding-top: 16px;
+  border: black solid 2px;
+  width: 160px;
+  margin-left: 6px;
+  border-radius: 5px;
+  
+}
+input[type = "submit"]
+{
+  border: black solid 2px;
+  width: 100px;
+  border-radius: 5px;
+}
+input[type = "submit"]:hover
+{
+  font-size:medium;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#l
+{
+  background-color: #0072b1;
+  margin-bottom: 4px;
+  border-radius: 3px;
+  border: #0072b1;
+}
+#g
+{
+  border-radius: 3px;
+  background-color: #FFFFFF;
+  margin-bottom: 4px;
+  text-decoration: none;
+  border:white;
+}
+#t
+{
+  border-radius: 3px;
+  border: #00acee;
+  margin-bottom: 4px;
+  background-color:#00acee;
+}
+.soc:hover
+{
+  cursor: pointer;
+}
+s:hover
+{
+  color:whitesmoke;
+}
+#g1
+{
+  color: black;
+  text-decoration: none;
+}
+#l1
+{
+  color: white;
+  text-decoration: none;
+}
+#t1
+{
+  color: white;
+  text-decoration: none;
+}
+a:hover
+{
+  transition: 0.6s;
+  font-size: larger;
+}
+#or
+{
+  color:slategray;
+}
+.signup
+{
+  background-color:sienna;
+  background-color: white;
+  border: solid 4px;
+  border-radius: 7px;
+  margin-top: 150px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 20px;
+  position:absolute;
+  /* background-image: linear-gradient(to left,black,white); */
+  
+  margin-left: 600px;
+  width: 25%;
+  opacity: 0.9;
+}
+#h3
+{
+  padding-left: 200px;
+}
+.signupp
+{
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right,black,white);
+  position: relative;
+}
